@@ -2,6 +2,12 @@
 <html>
   <head><title>Example web page</title></head>
   <body>
+    var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.shadowBlur = 20;
+ctx.shadowColor = "black";
+ctx.fillStyle = "red";
+ctx.fillRect(20, 20, 100, 80);
     <h1>Hello, Monkey</h1>
       <p>
         Welcome to my boof page. This is a bomb demo of HTML.
